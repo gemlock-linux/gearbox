@@ -13,6 +13,8 @@ fn main() {
             Box::new(TouchModule::default()),
             Box::new(EchoModule::default()),
             Box::new(UnameModule::default()),
+            Box::new(TrueModule::default()),
+            Box::new(FalseModule::default()),
         ],
     };
 

@@ -117,7 +117,7 @@ Note that not everything is implemented just yet, we're working on it!
 - [ ] `env`
 - [ ] `expr`
 - [ ] `factor`
-- [ ] `false`
+- [x] `false`
 - [ ] `groups`
 - [ ] `hostid`
 - [ ] `id`
@@ -141,7 +141,7 @@ Note that not everything is implemented just yet, we're working on it!
 - [ ] `tee`
 - [ ] `test`
 - [ ] `timeout`
-- [ ] `true`
+- [x] `true`
 - [ ] `tty`
 - [x] `uname`
 - [ ] `unlink`
