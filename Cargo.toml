@@ -4,7 +4,7 @@ version = "0.1.0"
 authors = ["Robin Alexander Plate"]
 edition = "2021"
 license = "MIT"
-description = "A box full of utilities, it's written in rust and it's ment as a replacement for coreutils / busybox."
+description = "A box full of utilities, a unworthy replacement for coreutils / busybox / toybox."
 repository = "https://github.com/gemlock-linux/gearbox"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
