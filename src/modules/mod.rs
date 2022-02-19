@@ -5,6 +5,7 @@ mod pwd;
 mod touch;
 mod true_;
 mod uname;
+mod whoami;
 mod yes;
 
 pub use echo::*;
@@ -14,4 +15,5 @@ pub use pwd::*;
 pub use touch::*;
 pub use true_::*;
 pub use uname::*;
+pub use whoami::*;
 pub use yes::*;
