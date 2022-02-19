@@ -4,6 +4,7 @@ mod module;
 mod touch;
 mod true_;
 mod uname;
+mod yes;
 
 pub use echo::*;
 pub use false_::*;
@@ -11,3 +12,4 @@ pub use module::*;
 pub use touch::*;
 pub use true_::*;
 pub use uname::*;
+pub use yes::*;

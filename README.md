@@ -149,7 +149,7 @@ Note that not everything is implemented just yet, we're working on it!
 - [ ] `users`
 - [ ] `who`
 - [ ] `whoami`
-- [ ] `yes`
+- [x] `yes`
 - [ ] `[`
 
 ## License
