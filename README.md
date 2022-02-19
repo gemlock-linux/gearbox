@@ -130,7 +130,7 @@ Note that not everything is implemented just yet, we're working on it!
 - [ ] `pinky`
 - [ ] `printenv`
 - [ ] `printf`
-- [ ] `pwd`
+- [x] `pwd`
 - [ ] `readlink`
 - [ ] `runcon`
 - [ ] `seq`

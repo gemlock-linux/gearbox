@@ -16,6 +16,7 @@ fn main() {
             Box::new(TrueModule::default()),
             Box::new(FalseModule::default()),
             Box::new(YesModule::default()),
+            Box::new(PWDModule::default()),
         ],
     };
 
