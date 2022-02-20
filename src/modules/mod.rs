@@ -1,6 +1,7 @@
 mod echo;
 mod false_;
 mod module;
+mod nice;
 mod pwd;
 mod sleep;
 mod touch;
@@ -12,6 +13,7 @@ mod yes;
 pub use echo::*;
 pub use false_::*;
 pub use module::*;
+pub use nice::*;
 pub use pwd::*;
 pub use sleep::*;
 pub use touch::*;

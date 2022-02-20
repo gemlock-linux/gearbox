@@ -123,7 +123,7 @@ Note that not everything is implemented just yet, we're working on it!
 - [ ] `id`
 - [ ] `link`
 - [ ] `logname`
-- [ ] `nice`
+- [x] `nice`
 - [ ] `nohup`
 - [ ] `nproc`
 - [ ] `pathchk`

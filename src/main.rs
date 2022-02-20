@@ -19,6 +19,7 @@ fn main() {
             Box::new(PWDModule::default()),
             Box::new(WhoamiModule::default()),
             Box::new(SleepModule::default()),
+            Box::new(NiceModule::default()),
         ],
     };
 
