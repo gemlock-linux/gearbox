@@ -1,5 +1,5 @@
 # Gearbox
-A box full of utilities, it's written in rust and it's ment as a replacement for coreutils / busybox.
+A box full of utilities, a unworthy replacement for coreutils / busybox / toybox.
 
 ## List of content
 * [How to setup](#how-to-setup)
@@ -134,7 +134,7 @@ Note that not everything is implemented just yet, we're working on it!
 - [ ] `readlink`
 - [ ] `runcon`
 - [ ] `seq`
-- [ ] `sleep`
+- [x] `sleep`
 - [ ] `stat`
 - [ ] `stdbuf`
 - [ ] `stty`

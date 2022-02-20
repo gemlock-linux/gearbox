@@ -18,6 +18,7 @@ fn main() {
             Box::new(YesModule::default()),
             Box::new(PWDModule::default()),
             Box::new(WhoamiModule::default()),
+            Box::new(SleepModule::default()),
         ],
     };
 
@@ -32,6 +33,7 @@ fn main() {
                 .map(|module| module.command())
                 .collect::<Vec<_>>(),
         )
+        .arg_required_else_help(true)
         .get_matches();
 
     gearbox
