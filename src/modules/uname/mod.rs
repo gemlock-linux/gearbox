@@ -92,35 +92,41 @@ impl Module for UnameModule {
 
         let mut output = String::new();
 
-        let sysinfo = nix::sys::utsname::uname();
+        let sysinfo = nix::sys::utsname::uname().expect("Failed to get system information");
 
         if flags.contains(Flags::KERNEL_NAME) {
-            output.push_str(&sysinfo.sysname());
+            let kernel_name = sysinfo.sysname().to_string_lossy();
+            output.push_str(&kernel_name);
             output.push(' ');
         }
 
         if flags.contains(Flags::NODE_NAME) {
-            output.push_str(&sysinfo.nodename());
+            let nodename = sysinfo.nodename().to_string_lossy();
+            output.push_str(&nodename);
             output.push(' ');
         }
 
         if flags.contains(Flags::KERNEL_RELEASE) {
-            output.push_str(&sysinfo.release());
+            let kernel_release = sysinfo.release().to_string_lossy();
+            output.push_str(&kernel_release);
             output.push(' ');
         }
 
         if flags.contains(Flags::KERNEL_VERSION) {
-            output.push_str(&sysinfo.version());
+            let kernel_version = sysinfo.version().to_string_lossy();
+            output.push_str(&kernel_version);
             output.push(' ');
         }
 
         if flags.contains(Flags::MACHINE) {
-            output.push_str(&sysinfo.machine());
+            let machine = sysinfo.machine().to_string_lossy();
+            output.push_str(&machine);
             output.push(' ');
         }
 
         if flags.contains(Flags::OPERATING_SYSTEM) {
-            output.push_str(&format!("{}/{}", "Gemlock", sysinfo.sysname()));
+            let operating_system = sysinfo.sysname().to_string_lossy();
+            output.push_str(&operating_system);
             output.push(' ');
         }
 

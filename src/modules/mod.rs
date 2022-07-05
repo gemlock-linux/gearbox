@@ -9,6 +9,8 @@ mod true_;
 mod uname;
 mod whoami;
 mod yes;
+mod sha1sum;
+mod mkdir;
 
 pub use echo::*;
 pub use false_::*;
@@ -21,3 +23,5 @@ pub use true_::*;
 pub use uname::*;
 pub use whoami::*;
 pub use yes::*;
+pub use sha1sum::*;
+pub use mkdir::*;

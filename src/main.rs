@@ -20,6 +20,8 @@ fn main() {
             Box::new(WhoamiModule::default()),
             Box::new(SleepModule::default()),
             Box::new(NiceModule::default()),
+            Box::new(Sha1sumModule::default()),
+            Box::new(MkDirModule::default()),
         ],
     };
 

@@ -58,7 +58,7 @@ Note that not everything is implemented just yet, we're working on it!
 - [ ] `install`
 - [ ] `ln`
 - [ ] `ls`
-- [ ] `mkdir`
+- [x] `mkdir`
 - [ ] `mkfifo`
 - [ ] `mknod`
 - [ ] `mktemp`
@@ -91,7 +91,7 @@ Note that not everything is implemented just yet, we're working on it!
 - [ ] `paste`
 - [ ] `ptx`
 - [ ] `pr`
-- [ ] `sha1sum`
+- [x] `sha1sum`
 - [ ] `sha224sum`
 - [ ] `sha256sum`
 - [ ] `sha384sum`
